@@ -1,0 +1,141 @@
+{
+  "config": {
+    "ntrains": [
+      10,
+      20,
+      40,
+      80
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "bar_n": 40,
+    "op_points": [
+      [
+        "coordination",
+        0.8
+      ],
+      [
+        "shift",
+        0.3
+      ]
+    ],
+    "abl_effects": {
+      "coordination": [
+        0.6,
+        0.8,
+        0.95
+      ],
+      "shift": [
+        0.1,
+        0.2,
+        0.3
+      ]
+    },
+    "p2q": [
+      0.0,
+      0.002,
+      0.005,
+      0.01,
+      0.02
+    ],
+    "snapshots": [
+      25,
+      100,
+      400,
+      1600,
+      6400
+    ],
+    "kernel_shots": [
+      1,
+      4,
+      16,
+      64,
+      256
+    ],
+    "n_test": 300,
+    "n_test_shots": 150
+  },
+  "effects": {
+    "coordination": [
+      0.0,
+      0.3,
+      0.6,
+      0.8,
+      0.95
+    ],
+    "shift": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ]
+  },
+  "cells_with_signal": 32,
+  "gain_vs_distSVM_cells_positive": 9,
+  "gain_vs_distSVM_mean_by_task": {
+    "coordination": -0.03,
+    "shift": -0.0146
+  },
+  "gain_vs_distSVM_max_by_task": {
+    "coordination": 0.018,
+    "shift": 0.024
+  },
+  "gain_vs_distSVM_min_by_task": {
+    "coordination": -0.082,
+    "shift": -0.0553
+  },
+  "gain_vs_best_cells_positive": 2,
+  "gain_vs_best_mean_by_task": {
+    "coordination": -0.0662,
+    "shift": -0.0445
+  },
+  "gain_vs_best_max_by_task": {
+    "coordination": 0.0013,
+    "shift": 0.0107
+  },
+  "gain_vs_best_min_by_task": {
+    "coordination": -0.122,
+    "shift": -0.0813
+  },
+  "gain_vs_kernel_cells_positive": 13,
+  "gain_vs_kernel_mean_by_task": {
+    "coordination": 0.011,
+    "shift": -0.019
+  },
+  "gain_vs_kernel_max_by_task": {
+    "coordination": 0.084,
+    "shift": 0.022
+  },
+  "gain_vs_kernel_min_by_task": {
+    "coordination": -0.0887,
+    "shift": -0.07
+  },
+  "null_mean_acc_by_method": {
+    "dist-LR": 0.4894,
+    "dist-SVM": 0.4953,
+    "dist-quad-LR": 0.5,
+    "fidelity-kernel-SVM": 0.4943,
+    "entanglement-SVM": 0.4958
+  },
+  "g_choice_counts": {
+    "g=0.15": 82,
+    "g=0.6": 65,
+    "g=0.3": 53
+  },
+  "snapshot_threshold": {
+    "coordination": {
+      "exact_acc": 0.6493,
+      "min_snapshots_within_2pts": null
+    },
+    "shift": {
+      "exact_acc": 0.668,
+      "min_snapshots_within_2pts": 6400
+    }
+  }
+}
