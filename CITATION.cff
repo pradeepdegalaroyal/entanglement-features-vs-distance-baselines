@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Entanglement-Entropy Features versus Distance Baselines: a Controlled Simulation Study with Snapshot and Noise Budgets"
+type: software
+version: 0.1.0
+date-released: 2026-10-31
+license: MIT
+repository-code: "https://github.com/pradeepdegalaroyal/entanglement-features-vs-distance-baselines"
+authors:
+  - family-names: Chenchupradeep
+    given-names: Degala
+keywords:
+  - quantum machine learning
+  - entanglement entropy
+  - quantum kernels
+  - classical shadows
+  - simulation study
